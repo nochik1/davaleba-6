@@ -1,19 +1,27 @@
-.container{
-	width: 1170px;
-	margin: 0 auto;
+.pht1{
+  height: 715px;
+  width: 1515px;
+  
 }
-.big-box{
-	width: 400px;
-	height: 400px;
-	background-color: lightblue;
-	position: relative;
+.pht2{
+    position: relative;
+    margin-left: -55%;
+    margin-top: 290px;
+    width: 200px;
+    animation: mymove 4s infinite;
 }
-.small-box{
-	width: 100px;
-	height: 100px;
-	background-color: orange;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+@keyframes mymove {
+  from {top: 100px;}
+  to {top: -5px;}
 }
+.pht3{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-left: -200px;
+  margin-bottom: 465px;
+  animation: mymove1 4s infinite;
+}
+@keyframes mymove1 {
+  from {top: 0px;}
+  to {top: 180px;}
