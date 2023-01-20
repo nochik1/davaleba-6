@@ -9,19 +9,22 @@
     margin-top: 290px;
     width: 200px;
     animation: mymove 4s infinite;
+    border-radius: 8px;
 }
 @keyframes mymove {
   from {top: 100px;}
   to {top: -5px;}
 }
 .pht3{
-  position: relative;
-  width: 250px;
-  height: 250px;
-  margin-left: -200px;
-  margin-bottom: 465px;
-  animation: mymove1 4s infinite;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-left: -200px;
+    margin-bottom: 465px;
+    animation: mymove1 4s infinite;
+    border-radius: 8px;
 }
 @keyframes mymove1 {
   from {top: 0px;}
   to {top: 180px;}
+}
